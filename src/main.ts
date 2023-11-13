@@ -5,6 +5,7 @@ import vuetify from './plugins/vuetify'
 import VueTablerIcons from 'vue-tabler-icons';
 import { loadFonts } from './plugins/webfontloader'
 import PerfectScrollbar from 'vue3-perfect-scrollbar';
+import VueApexCharts from "vue3-apexcharts";
 import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css'
 import '@/scss/style.scss';
 
@@ -13,6 +14,7 @@ loadFonts()
 createApp(App)
   .use(router)
   .use(PerfectScrollbar)
+  .use(VueApexCharts)
   .use(VueTablerIcons)
   .use(vuetify)
   .mount('#app')
