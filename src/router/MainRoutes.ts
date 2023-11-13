@@ -23,6 +23,11 @@ const MainRoutes = {
             path: '/dashboards/ecommerce',
             component: () => import('../views/dashboard/ecommerce/index.vue')
           },
+          {
+            name: 'contacts',
+            path: '/apps/contacts',
+            component: () => import('../views/apps/contacts/index.vue')
+          },
     ]
 }
 
