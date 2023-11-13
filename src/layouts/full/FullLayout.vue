@@ -1,7 +1,9 @@
 <template>
      <!-----LTR LAYOUT------->
     <v-locale-provider> 
-        <v-app>   
+        <v-app
+        class="horizontalLayout cardBordered"
+        >   
             <Sidebar />
             <Header />
 
@@ -19,6 +21,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 import Sidebar from './sidebar/Sidebar.vue'
+import Header from './header/Header.vue'
 
 </script>
 
