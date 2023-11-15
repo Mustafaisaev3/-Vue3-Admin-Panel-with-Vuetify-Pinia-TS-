@@ -48,7 +48,7 @@ const sidebarItem: menu[] = [
             {
                 title: 'Detail',
                 icon: PointIcon,
-                to: '/apps/blog/early-black-friday-amazon-deals-cheap-tvs-headphones'
+                to: '/apps/blog/1'
             }
         ]
     },

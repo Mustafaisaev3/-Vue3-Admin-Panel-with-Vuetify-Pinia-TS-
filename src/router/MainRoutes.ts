@@ -28,6 +28,16 @@ const MainRoutes = {
             path: '/apps/contacts',
             component: () => import('../views/apps/contacts/index.vue')
           },
+          {
+            name: 'Posts',
+            path: '/apps/blog/posts',
+            component: () => import('../views/apps/blog/Posts.vue')
+          },
+          {
+            name: 'Detail',
+            path: '/apps/blog/:id',
+            component: () => import('../views/apps/blog/Detail.vue')
+          },
     ]
 }
 

@@ -12,7 +12,12 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "@types/chance": "^1.1.6",
+    "@types/lodash": "^4.14.201",
     "apexcharts": "^3.44.0",
+    "chance": "^1.1.11",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
     "pinia": "^2.1.7",
     "roboto-fontface": "*",
     "vue": "^3.3.4",
