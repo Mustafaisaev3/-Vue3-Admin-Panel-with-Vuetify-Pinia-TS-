@@ -38,6 +38,26 @@ const MainRoutes = {
             path: '/apps/blog/:id',
             component: () => import('../views/apps/blog/Detail.vue')
           },
+          {
+            name: 'Products',
+            path: '/apps/ecommerce/products',
+            component: () => import('../views/apps/eCommerce/Products.vue')
+          },
+          {
+            name: 'Product detail',
+            path: '/apps/ecommerce/product/detail/:id',
+            component: () => import('@/views/apps/eCommerce/ProductDetails.vue')
+          },
+          {
+            name: 'Product Listing',
+            path: '/apps/ecommerce/productlist',
+            component: () => import('@/views/apps/eCommerce/ProductList.vue')
+          },
+          {
+            name: 'Product Checkout',
+            path: '/apps/ecommerce/checkout',
+            component: () => import('@/views/apps/eCommerce/ProductCheckout.vue')
+          },
     ]
 }
 
