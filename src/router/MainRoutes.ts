@@ -58,6 +58,11 @@ const MainRoutes = {
             path: '/apps/ecommerce/checkout',
             component: () => import('@/views/apps/eCommerce/ProductCheckout.vue')
           },
+          {
+            name: 'Chats',
+            path: '/apps/chats',
+            component: () => import('@/views/apps/chat/Chats.vue')
+          },
     ]
 }
 
