@@ -63,6 +63,16 @@ const MainRoutes = {
             path: '/apps/chats',
             component: () => import('@/views/apps/chat/Chats.vue')
           },
+          {
+            name: 'Calendar',
+            path: '/apps/calendar',
+            component: () => import('@/views/apps/calendar/Calendar.vue')
+          },
+          {
+            name: 'Notes',
+            path: '/apps/notes',
+            component: () => import('@/views/apps/notes/Notes.vue')
+          },
     ]
 }
 
