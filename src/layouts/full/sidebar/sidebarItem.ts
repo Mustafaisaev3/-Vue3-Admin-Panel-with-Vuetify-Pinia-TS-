@@ -38,7 +38,7 @@ const sidebarItem: menu[] = [
     {
         title: 'Blog',
         icon: ChartDonut3Icon,
-        to: '/',
+        to: '/apps/blog',
         children: [
             {
                 title: 'Posts',
@@ -55,7 +55,7 @@ const sidebarItem: menu[] = [
     {
         title: 'E-Commerce',
         icon: BasketIcon,
-        to: '/ecommerce/',
+        to: '/apps/ecommerce',
         children: [
             {
                 title: 'Shop',
@@ -83,33 +83,6 @@ const sidebarItem: menu[] = [
         title: 'Chats',
         icon: Message2Icon,
         to: '/apps/chats'
-    },
-    {
-        title: 'User Profile',
-        icon: UserCircleIcon,
-        to: '/',
-        children: [
-            {
-                title: 'Profile',
-                icon: PointIcon,
-                to: '/apps/user/profile'
-            },
-            {
-                title: 'Followers',
-                icon: PointIcon,
-                to: '/apps/user/profile/followers'
-            },
-            {
-                title: 'Friends',
-                icon: PointIcon,
-                to: '/apps/user/profile/friends'
-            },
-            {
-                title: 'Gallery',
-                icon: PointIcon,
-                to: '/apps/user/profile/gallery'
-            }
-        ]
     },
     {
         title: 'Notes',

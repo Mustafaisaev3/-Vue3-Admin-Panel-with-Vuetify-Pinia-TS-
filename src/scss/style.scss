@@ -4,6 +4,8 @@
 @import './components/VCard';
 @import './components/VShadow';
 @import './components/VTextField';
+@import './components/VNavigationDrawer';
+@import './components/VList';
 
 
 @import './layout/sidebar';
@@ -15,6 +17,7 @@
 @import './layout/reboot';
 
 @import './pages/datatable';
+@import './pages/authentication';
 
 @import './override';
 

@@ -8,6 +8,8 @@
         class="leftSidebar"
         expand-on-hover 
         width="270"
+        v-model="config.sidebar_drawer"
+        :rail="config.mini_sidebar"
     >
         <!---Logo part -->
         <v-locale-provider>
@@ -43,12 +45,17 @@
 <script setup lang="ts">
 import { ref, shallowRef } from 'vue';
 import sidebarItems from './sidebarItem';
+import { useConfigStore } from '@/store/config'
+
 
 import NavGroup from './NavGroup/NavGroup.vue';
 import NavItem from './NavItem/NavItem.vue';
 import NavCollapse from './NavCollapse/NavCollapse.vue';
 import Logo from '../logo/Logo.vue';
 import Profile from './Profile/Profile.vue';
+
+
+const config = useConfigStore()
 
 const sidebarMenu = shallowRef(sidebarItems);
 </script>

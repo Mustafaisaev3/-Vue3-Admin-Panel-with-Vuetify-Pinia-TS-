@@ -5,6 +5,7 @@
             icon
             color="primary"
             variant="text"
+            @click.stop="config.SET_MINI_SIDEBAR(!config.mini_sidebar)"
         >
             <Menu2Icon size="20" stroke-width="1.5" />
         </v-btn>
@@ -81,6 +82,10 @@ import Navigations from './Navigations/Navigations.vue';
 import NotificationDD from './Navigations/NotificationDD.vue';
 import ProfileDD from './Navigations/ProfileDD.vue';
 import RightMobileSidebar from './Navigations/RightMobileSidebar.vue';
+
+import { useConfigStore } from '@/store/config'
+
+const config = useConfigStore()
 
 const showSearch = ref(false);
 const appsdrawer = ref(false);
