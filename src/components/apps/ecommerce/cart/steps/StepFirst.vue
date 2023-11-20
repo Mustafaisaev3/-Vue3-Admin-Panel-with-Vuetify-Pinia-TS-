@@ -72,3 +72,4 @@ const getCart = computed(() => {
     height: 60px;
 }
 </style>
+@/store/apps/ecommerce

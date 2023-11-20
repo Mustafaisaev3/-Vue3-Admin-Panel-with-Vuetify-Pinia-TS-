@@ -58,3 +58,4 @@ const dialog = ref(false);
     </v-row>
     <AddAddress :dialog="dialog" @handledialog="dialog = false" />
 </template>
+@/store/apps/ecommerce

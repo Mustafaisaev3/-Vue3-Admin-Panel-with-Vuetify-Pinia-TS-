@@ -110,3 +110,4 @@ function selectColor(e) {
     vertical-align: center;
 }
 </style>
+@/store/apps/ecommerce

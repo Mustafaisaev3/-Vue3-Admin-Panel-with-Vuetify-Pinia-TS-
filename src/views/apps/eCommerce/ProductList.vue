@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import UiParentCard from '@/components/shared/UiParentCard.vue';
 import type { Header, Item } from 'vue3-easy-data-table';
 import 'vue3-easy-data-table/dist/style.css';

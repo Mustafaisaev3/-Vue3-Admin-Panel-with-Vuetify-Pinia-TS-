@@ -111,3 +111,4 @@ function slideTo(val) {
     }
 }
 </style>
+@/store/apps/ecommerce

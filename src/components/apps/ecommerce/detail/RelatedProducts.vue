@@ -58,3 +58,4 @@ function AddCart(p: any) {
     padding: 10px;
 }
 </style>
+@/store/apps/ecommerce

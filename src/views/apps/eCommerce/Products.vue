@@ -4,7 +4,7 @@ import AppBaseCard from '@/components/shared/AppBaseCard.vue';
 //Types
 import type { Products } from '@/types/apps/eCommerce';
 import ProductItemVue from '@/components/apps/ecommerce/listing/ProductItem.vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import { orderBy, filter, includes } from 'lodash';
 
 import ProductEmpty from '@/components/apps/ecommerce/listing/ProductEmpty.vue';

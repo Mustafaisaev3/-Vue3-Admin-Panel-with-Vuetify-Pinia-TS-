@@ -97,3 +97,4 @@ function changeTab(e: string) {
     min-height: 68px;
 }
 </style>
+@/store/apps/ecommerce

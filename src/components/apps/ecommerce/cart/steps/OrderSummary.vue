@@ -43,3 +43,4 @@ onMounted(() => {
         </v-card-item>
     </v-card>
 </template>
+@/store/apps/ecommerce
