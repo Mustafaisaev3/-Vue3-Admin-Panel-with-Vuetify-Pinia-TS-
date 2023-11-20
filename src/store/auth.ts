@@ -25,7 +25,7 @@ export const useAuthStore = defineStore({
             // store user details and jwt in local storage to keep user logged in between page refreshes
             localStorage.setItem('vue_admin_user', JSON.stringify(response?.user));
             // redirect to previous url or default to home page
-            router.push(this.returnUrl || '/apps/contacts');
+            router.push(this.returnUrl || '/');
         },
         logout() {
             this.user = null;
