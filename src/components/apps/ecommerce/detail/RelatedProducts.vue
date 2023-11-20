@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue';
 import ProductItemVue from '../listing/ProductItem.vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import { useRoute } from 'vue-router';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
@@ -58,4 +58,4 @@ function AddCart(p: any) {
     padding: 10px;
 }
 </style>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce

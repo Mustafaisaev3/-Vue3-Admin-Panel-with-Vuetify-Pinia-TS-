@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 
 const panel = ref([0, 1, 2, 3, 4]);
 const priceSort = [

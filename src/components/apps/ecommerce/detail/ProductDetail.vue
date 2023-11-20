@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import { useRoute } from 'vue-router';
 import ProductCarousel from './ProductCarousel.vue';
 import ProductTab from './ProductTab.vue';
@@ -110,4 +110,4 @@ function selectColor(e) {
     vertical-align: center;
 }
 </style>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce

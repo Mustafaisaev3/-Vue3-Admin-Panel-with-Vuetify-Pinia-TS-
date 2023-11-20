@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import { useRoute } from 'vue-router';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
@@ -111,4 +111,4 @@ function slideTo(val) {
     }
 }
 </style>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce

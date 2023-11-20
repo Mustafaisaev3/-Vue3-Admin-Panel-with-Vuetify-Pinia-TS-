@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, onUpdated, reactive, ref } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 
 const store = useEcomStore();
 onMounted(() => {
@@ -43,4 +43,4 @@ onMounted(() => {
         </v-card-item>
     </v-card>
 </template>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce

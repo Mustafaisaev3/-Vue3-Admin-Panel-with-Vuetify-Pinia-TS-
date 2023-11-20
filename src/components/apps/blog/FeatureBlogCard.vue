@@ -5,7 +5,6 @@ const props = defineProps({ post: Object, index: Number });
 const mainPost = props.index === 0;
 
 const linkTo = `${props.post?.id}`
-console.log(linkTo)
 </script>
 
 <template>

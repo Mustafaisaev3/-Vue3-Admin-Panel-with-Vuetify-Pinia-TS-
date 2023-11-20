@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import OrderSummaryVue from './OrderSummary.vue';
 import AddressCard from './AddressCard.vue';
 import AddCard from './AddCard.vue';
@@ -274,4 +274,4 @@ html .label-op-1 label {
     opacity: 1 !important;
 }
 </style>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce

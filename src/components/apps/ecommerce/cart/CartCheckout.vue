@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import StepFirst from './steps/StepFirst.vue';
 import StepSecond from './steps/StepSecond.vue';
 import Payment from './steps/Payment.vue';
@@ -97,4 +97,4 @@ function changeTab(e: string) {
     min-height: 68px;
 }
 </style>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce

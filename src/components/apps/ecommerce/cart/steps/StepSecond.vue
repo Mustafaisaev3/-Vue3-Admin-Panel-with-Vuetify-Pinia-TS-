@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue';
 import AddressCard from './AddressCard.vue';
 import AddAddress from './AddAddress.vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import OrderSummary from './OrderSummary.vue';
 
 const store = useEcomStore();
@@ -58,4 +58,4 @@ const dialog = ref(false);
     </v-row>
     <AddAddress :dialog="dialog" @handledialog="dialog = false" />
 </template>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce

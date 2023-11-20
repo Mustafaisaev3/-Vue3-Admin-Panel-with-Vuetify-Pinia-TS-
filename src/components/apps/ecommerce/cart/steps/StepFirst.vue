@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useEcomStore } from '@/store/apps/eCommerce';
+import { useEcomStore } from '@/store/apps/ecommerce';
 import CartEmpty from '../CartEmpty.vue';
 import OrderSummaryVue from './OrderSummary.vue';
 
@@ -72,4 +72,4 @@ const getCart = computed(() => {
     height: 60px;
 }
 </style>
-@/store/apps/ecommerce
+@/store/apps/ecommerce@/store/apps/ecommerce
