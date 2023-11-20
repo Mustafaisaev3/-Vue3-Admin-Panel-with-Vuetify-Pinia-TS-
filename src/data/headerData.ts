@@ -110,7 +110,7 @@ const appsLink: appsLinkType[] = [
         avatar: img3,
         title: 'User Profile App',
         subtext: 'Get profile details',
-        href: '/apps/user/profile'
+        href: '/'
     },
     {
         avatar: img4,
@@ -128,7 +128,7 @@ const appsLink: appsLinkType[] = [
         avatar: img6,
         title: 'Account Setting App',
         subtext: 'Account settings',
-        href: '/pages/account-settings'
+        href: '/'
     },
     {
         avatar: img7,
@@ -150,7 +150,7 @@ const appsLink: appsLinkType[] = [
 const quickLink: quickLinksType[] = [
     {
         title: 'Pricing Page',
-        href: '/pages/pricing'
+        href: '/'
     },
     {
         title: 'Authentication Design',
@@ -158,7 +158,7 @@ const quickLink: quickLinksType[] = [
     },
     {
         title: 'Register Now',
-        href: '/auth/register'
+        href: '/'
     },
     {
         title: '404 Error Page',
@@ -170,11 +170,11 @@ const quickLink: quickLinksType[] = [
     },
     {
         title: 'User Application',
-        href: '/apps/user/profile'
+        href: '/'
     },
     {
         title: 'Blog Design',
-        href: '/apps/blog/posts'
+        href: '/'
     },
     {
         title: 'Shopping Cart',

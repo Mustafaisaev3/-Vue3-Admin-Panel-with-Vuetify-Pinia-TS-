@@ -8,7 +8,7 @@ const MainRoutes = {
         {
             path: '/',
             name: 'home',
-            component: HomeView,
+            component: () => import('../views/dashboard/ecommerce/index.vue'),
             meta: {
               requiresAuth: true,
             },

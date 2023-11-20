@@ -27,7 +27,7 @@ type appsLinkType = {
 
 type quickLinksType = {
     title: string;
-    href: string;
+    href?: string;
 };
 
 type searchType = {
