@@ -68,19 +68,6 @@ const profileDD: profileType[] = [
     }
 ];
 
-// 
-// Language
-// 
-import flag1 from '@/assets/images/flag/icon-flag-en.svg';
-import flag2 from '@/assets/images/flag/icon-flag-fr.svg';
-import flag3 from '@/assets/images/flag/icon-flag-ro.svg';
-import flag4 from '@/assets/images/flag/icon-flag-zh.svg';
-const languageDD: languageType[] = [
-    { title: 'English', subtext: 'UK', value: 'en', avatar: flag1 },
-    { title: 'français', subtext: 'French', value: 'fr', avatar: flag2 },
-    { title: 'عربي', subtext: 'Arbic', value: 'ro', avatar: flag3 },
-    { title: '中国人', subtext: 'Chinese', value: 'zh', avatar: flag4 }
-];
 
 // 
 // AppsLink
